@@ -7,6 +7,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from utils import FeatureEngineer
 from utils import IQRClipper
 
+# 1. Import the trained model
 model = joblib.load("stacking_pipeline_water.joblib")
 
 
